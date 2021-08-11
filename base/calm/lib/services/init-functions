@@ -10,6 +10,7 @@
 # Update      : Bruce Dubbs - bdubbs@linuxfromscratch.org
 #
 # Version     : LFS 7.0
+#			  : Calmira LX4 1.1 (2021.5)
 #
 # Notes       : With code based on Matthias Benkmann's simpleinit-msb
 #               http://winterdrache.de/linux/newboot/index.html
@@ -46,10 +47,10 @@ FAILURE_PREFIX="${FAILURE}*****${NORMAL} "
 WARNING_PREFIX="${WARNING} *** ${NORMAL} "
 SKIP_PREFIX="${INFO}  S   ${NORMAL}"
 
-SUCCESS_SUFFIX="${BRACKET}[${SUCCESS}  OK  ${BRACKET}]${NORMAL}"
-FAILURE_SUFFIX="${BRACKET}[${FAILURE} FAIL ${BRACKET}]${NORMAL}"
-WARNING_SUFFIX="${BRACKET}[${WARNING} WARN ${BRACKET}]${NORMAL}"
-SKIP_SUFFIX="${BRACKET}[${INFO} SKIP ${BRACKET}]${NORMAL}"
+SUCCESS_SUFFIX="[${SUCCESS}  OK  ${NORMAL}]"
+FAILURE_SUFFIX="[${FAILURE} FAIL ${NORMAL}]"
+WARNING_SUFFIX="[${WARNING} WARN ${NORMAL}]"
+SKIP_SUFFIX="[${INFO} SKIP ${NORMAL}]"
 
 BOOTLOG=/run/bootlog
 KILLDELAY=3
