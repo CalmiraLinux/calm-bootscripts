@@ -1,6 +1,6 @@
 # Bootscripts
 
-This is fork of [LX4U Bootscripts](https://github.com/Linux4Yourself/bootscripts).
+This is fork of [LX4U Bootscripts](https://github.com/Linux4Yourself/bootscripts) and [BLFS-10.0 Bootscripts](http://anduin.linuxfromscratch.org/BLFS/blfs-bootscripts/blfs-bootscripts-20200818.tar.xz).
 
 Network Configuration:
 
