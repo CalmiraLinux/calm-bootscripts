@@ -7,8 +7,13 @@
 # Authors     : Gerard Beekmans  - gerard@linuxfromscratch.org
 #             : DJ Lucas - dj@linuxfromscratch.org
 # Update      : Bruce Dubbs - bdubbs@linuxfromscratch.org
+#             : Michail Krasnov - linuxoid85@gmail.com
 #
 # Version     : LFS 7.0
+# Version (2) : Calmira GNU/Linux-libre 1.2
+#
+# Compat.     : Calmira LX4 1.1 GNU/Linux (2021.5), Calmira 1.2
+#               GNU/Linux-libre (2022.1)
 #
 ########################################################################
 
@@ -83,9 +88,9 @@ run()
 # Read any local settings/overrides
 [ -r /etc/sysconfig/rc.site ] && source /etc/sysconfig/rc.site
 
-DISTRO=${DISTRO:-"Linux From Scratch"}
-DISTRO_CONTACT=${DISTRO_CONTACT:-"lfs-dev@linuxfromscratch.org (Registration required)"}
-DISTRO_MINI=${DISTRO_MINI:-"LFS"}
+DISTRO=${DISTRO:-"Calmira GNU/Linux-libre"}
+DISTRO_CONTACT=${DISTRO_CONTACT:-"https://github.com/CalmiraLinux/CalmiraLinux (registration required)"}
+DISTRO_MINI=${DISTRO_MINI:-"CPL"}
 IPROMPT=${IPROMPT:-"no"}
 
 # These 3 signals will not cause our script to exit

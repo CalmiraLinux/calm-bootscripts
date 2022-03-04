@@ -7,6 +7,7 @@
 # Authors     : Nathan Coulson - nathan@linuxfromscratch.org
 #               Kevin P. Fleming - kpfleming@linuxfromscratch.org
 # Update      : Bruce Dubbs - bdubbs@linuxfromscratch.org
+#             : Michail Krasnov - linuxoid85@gmail.com
 #
 # Version     : LFS 7.0
 #
@@ -19,7 +20,7 @@
 RELEASE="7.0"
 
 USAGE="Usage: $0 [ -hV ] [--help] [--version] interface"
-VERSTR="LFS ifdown, version ${RELEASE}"
+VERSTR="CPL ifdown, version ${RELEASE}"
 
 while [ $# -gt 0 ]; do
    case "$1" in

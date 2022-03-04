@@ -12,6 +12,9 @@
 # Version     : LFS 7.0
 #			  : Calmira LX4 1.1 (2021.5)
 #
+# Compat.     : Calmira LX4 1.1 GNU/Linux (2021.5), Calmira 1.2
+#               GNU/Linux-libre (2022.1)
+#
 # Notes       : With code based on Matthias Benkmann's simpleinit-msb
 #               http://winterdrache.de/linux/newboot/index.html
 #
